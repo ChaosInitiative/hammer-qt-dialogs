@@ -43,15 +43,21 @@ set(SRC
 	dialogs/RunMapNormal.cpp
 	dialogs/MapInformation.h
 	dialogs/MapInformation.cpp
+	dialogs/KeyBinds.cpp
+	dialogs/KeyBinds.h
 	
 	# Widgets 
 	widgets/FileSelector.h
 	widgets/FileSelector.cpp
 	widgets/PrefSlider.h
 	widgets/PrefSlider.cpp
+	widgets/KeyRecorder.cpp
+	widgets/KeyRecorder.h
 	
 	# Everything else
 	qttest.cpp
+	Utils.cpp
+	Utils.h
 	Zoo.h
 	Zoo.cpp)
 
